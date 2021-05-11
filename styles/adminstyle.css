@@ -1,0 +1,222 @@
+.container-admin {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.5fr 1fr;
+  grid-gap: 2rem 5rem;
+  justify-items: center;
+}
+.add-produs {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  padding: 30px;
+  justify-self: stretch;
+}
+.add-produs form {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  height: 80%;
+  grid-gap: 0.5rem;
+}
+.add-produs form h1 {
+  align-self: center;
+  justify-self: center;
+  font-family: "Poppins", sans-serif;
+  color: #333;
+}
+.add-produs form h5 {
+  font-family: "Poppins", sans-serif;
+  width: 70%;
+  justify-self: start;
+  padding-left: 130px;
+  align-self: end;
+  color: #555;
+  font-size: 19px;
+}
+.add-produs form .button {
+  grid-row-start: 13;
+  grid-row-end: 14;
+  display: block;
+  width: 70%;
+  height: 50px;
+  border-radius: 25px;
+  outline: none;
+  border: none;
+  background-image: linear-gradient(to right, #32be8f, #38d39f, #32be8f);
+  background-size: 200%;
+  font-size: 1.2rem;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.5s;
+  place-self: center;
+}
+
+.add-produs form .button:hover {
+  background-position: right;
+}
+.add-produs form input {
+  width: 70%;
+  left: 0;
+  top: 0;
+  border: none;
+  background: transparent;
+  font-size: 1.2rem;
+  color: #555;
+  font-family: "poppins", sans-serif;
+  border-bottom: 3px solid #38d39f;
+  place-self: center;
+}
+.add-produs form input:focus {
+  border: none;
+  outline: none;
+  border-bottom: 3px solid #38d39f;
+}
+.add-furnizor {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  padding: 30px;
+  justify-self: stretch;
+}
+.add-furnizor form {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  height: 100%;
+  grid-gap: 0.5rem;
+}
+.add-furnizor form h1 {
+  align-self: center;
+  justify-self: center;
+  font-family: "Poppins", sans-serif;
+}
+.add-furnizor form h5 {
+  font-family: "Poppins", sans-serif;
+  width: 70%;
+  justify-self: start;
+  padding-left: 130px;
+  align-self: end;
+  color: #555;
+  font-size: 19px;
+}
+.add-furnizor form .button {
+  grid-row-start: 9;
+  grid-row-end: 10;
+  display: block;
+  width: 70%;
+  height: 50px;
+  border-radius: 25px;
+  outline: none;
+  border: none;
+  background-image: linear-gradient(to right, #32be8f, #38d39f, #32be8f);
+  background-size: 200%;
+  font-size: 1.2rem;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.5s;
+  place-self: center;
+}
+
+.add-furnizor form .button:hover {
+  background-position: right;
+}
+.add-furnizor form input {
+  width: 70%;
+  left: 0;
+  top: 0;
+  border: none;
+  background: transparent;
+  font-size: 1.2rem;
+  color: #555;
+  font-family: "poppins", sans-serif;
+  border-bottom: 3px solid #38d39f;
+  place-self: center;
+}
+.add-furnizor form input:focus {
+  border: none;
+  outline: none;
+  border-bottom: 3px solid #38d39f;
+}
+.delete-outofstock {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  justify-self: stretch;
+}
+.delete-outofstock h2 {
+  font-family: "poppins", sans-serif;
+  color: #333;
+  width: 100%;
+  align-self: center;
+  justify-self: center;
+  margin-left: 30%;
+  font-size: 30px;
+}
+.products-outofstock {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 4em;
+  height: 100%;
+}
+.products-outofstock .row {
+  justify-self: stretch;
+  background-color: #fcf6f5ff;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.products-outofstock .row img {
+  grid-row-start: 1;
+  grid-row-end: 5;
+  width: 350px;
+  height: 180px;
+  justify-self: stretch;
+}
+.products-outofstock .row p {
+  place-self: center;
+  color: #555;
+  font-size: 16px;
+}
+.products-outofstock .row .numeProdus {
+  font-size: 25px;
+  color: #333;
+  text-transform: uppercase;
+}
+.products-outofstock .row .button {
+  grid-row-start: 8;
+  grid-row-end: 9;
+  display: block;
+  width: 70%;
+  height: 50px;
+  border-radius: 25px;
+  outline: none;
+  border: none;
+  background-image: linear-gradient(to right, #32be8f, #38d39f, #32be8f);
+  background-size: 200%;
+  font-size: 1.2rem;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.5s;
+  justify-self: center;
+}
+.products-outofstock .row .button:hover {
+  background-position: right;
+}
+.products-outofstock .row form {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}

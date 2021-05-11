@@ -1,0 +1,96 @@
+.container-checkout {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 3rem;
+}
+.container-checkout .comanda {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  justify-self: stretch;
+  font-size: 25px;
+  margin-top: 80px;
+  padding: 30px;
+  font-weight: normal;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  text-shadow: 2px 2px#fcf6f5ff;
+}
+.form-checkout {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  margin-top: 40px;
+  grid-gap: 1rem;
+}
+.form-checkout h1 {
+  text-align: center;
+  font-size: 26px;
+  font-family: "Poppins", sans-serif;
+  justify-self: center;
+  align-self: flex-end;
+}
+.form-checkout form {
+  justify-self: stretch;
+  padding: 30px;
+  padding-top: 0;
+  grid-row-start: 2;
+  grid-row-end: 8;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.form-checkout form input {
+  width: 50%;
+  left: 0;
+  top: 0;
+  border: none;
+  text-align: center;
+  background: transparent;
+  font-size: 1.2rem;
+  color: #555;
+  font-family: "poppins", sans-serif;
+  border-bottom: 3px solid #38d39f;
+  place-self: center;
+}
+.form-checkout form input:focus {
+  border: none;
+  outline: none;
+  border-bottom: 3px solid #38d39f;
+}
+.form-checkout form h5 {
+  font-family: "Poppins", sans-serif;
+  width: 70%;
+  justify-self: start;
+  padding-left: 220px;
+  align-self: end;
+  color: #555;
+  font-size: 19px;
+}
+.form-checkout form .button {
+  grid-row-start: 11;
+  grid-row-end: 12;
+  display: block;
+  width: 60%;
+  height: 50px;
+  border-radius: 25px;
+  outline: none;
+  border: none;
+  background-image: linear-gradient(to right, #32be8f, #38d39f, #32be8f);
+  background-size: 200%;
+  font-size: 1.2rem;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.5s;
+  place-self: center;
+}
+
+.form-checkout form .button:hover {
+  background-position: right;
+}

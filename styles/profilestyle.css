@@ -1,0 +1,193 @@
+.container-profile {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 2fr 1fr;
+  grid-gap: 2rem 5rem;
+  justify-items: center;
+}
+.update-email {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  padding: 30px;
+  justify-self: stretch;
+}
+.update-email form {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  height: 85%;
+  grid-gap: 0.5rem;
+  margin-top: 60px;
+}
+.update-email form h1 {
+  align-self: center;
+  justify-self: center;
+  font-family: "Poppins", sans-serif;
+  color: #333;
+}
+.update-email form h5 {
+  font-family: "Poppins", sans-serif;
+  width: 70%;
+  justify-self: start;
+  padding-left: 130px;
+  align-self: end;
+  color: #555;
+  font-size: 19px;
+}
+.update-email form .button {
+  grid-row-start: 9;
+  grid-row-end: 10;
+  display: block;
+  width: 70%;
+  height: 50px;
+  border-radius: 25px;
+  outline: none;
+  border: none;
+  background-image: linear-gradient(to right, #32be8f, #38d39f, #32be8f);
+  background-size: 200%;
+  font-size: 1.2rem;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.5s;
+  place-self: center;
+}
+
+.update-email form .button:hover {
+  background-position: right;
+}
+.update-email form input {
+  width: 70%;
+  left: 0;
+  top: 0;
+  border: none;
+  background: transparent;
+  font-size: 1.2rem;
+  color: #555;
+  font-family: "poppins", sans-serif;
+  border-bottom: 3px solid #38d39f;
+  place-self: center;
+}
+.update-email form input:focus {
+  border: none;
+  outline: none;
+  border-bottom: 3px solid #38d39f;
+}
+.update-password {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  padding: 30px;
+  justify-self: stretch;
+}
+.update-password form {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  height: 85%;
+  grid-gap: 0.5rem;
+  margin-top: 60px;
+}
+.update-password form h1 {
+  align-self: center;
+  justify-self: center;
+  font-family: "Poppins", sans-serif;
+}
+.update-password form h5 {
+  font-family: "Poppins", sans-serif;
+  width: 70%;
+  justify-self: start;
+  padding-left: 130px;
+  align-self: end;
+  color: #555;
+  font-size: 19px;
+}
+.update-password form .button {
+  grid-row-start: 9;
+  grid-row-end: 10;
+  display: block;
+  width: 70%;
+  height: 50px;
+  border-radius: 25px;
+  outline: none;
+  border: none;
+  background-image: linear-gradient(to right, #32be8f, #38d39f, #32be8f);
+  background-size: 200%;
+  font-size: 1.2rem;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.5s;
+  place-self: center;
+}
+
+.update-password form .button:hover {
+  background-position: right;
+}
+.update-password form input {
+  width: 70%;
+  left: 0;
+  top: 0;
+  border: none;
+  background: transparent;
+  font-size: 1.2rem;
+  color: #555;
+  font-family: "poppins", sans-serif;
+  border-bottom: 3px solid #38d39f;
+  place-self: center;
+}
+.update-password form input:focus {
+  border: none;
+  outline: none;
+  border-bottom: 3px solid #38d39f;
+}
+.delete-account {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  justify-self: stretch;
+}
+.delete-account form {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  height: 85%;
+  grid-gap: 0.5rem;
+}
+.delete-account form h1 {
+  width: 40%;
+  align-self: start;
+  justify-self: center;
+  font-family: "Poppins", sans-serif;
+}
+.delete-account form .button {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  display: block;
+  width: 70%;
+  height: 50px;
+  border-radius: 25px;
+  outline: none;
+  border: none;
+  background-image: linear-gradient(to right, #32be8f, #38d39f, #32be8f);
+  background-size: 200%;
+  font-size: 1.2rem;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.5s;
+  place-self: center;
+}
+
+.delete-account form .button:hover {
+  background-position: right;
+}

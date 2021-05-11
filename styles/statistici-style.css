@@ -1,0 +1,33 @@
+.container-statistici {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  width: 100vw;
+  height: 100vh;
+  grid-gap: 4rem;
+}
+.container-statistici .produse-vandute {
+  justify-self: center;
+  margin-top: 60px;
+  font-family: "Poppins", sans-serif;
+}
+.container-statistici .produse-vandute p {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 26px;
+  color: #333;
+}
+.container-statistici .produse-vandute .row {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 1em;
+  margin-top: 30px;
+}
+.container-statistici .produse-vandute .row p {
+  font-size: 20px;
+  text-transform: none;
+  text-align: left;
+  padding: 8px;
+  color: #555;
+}
